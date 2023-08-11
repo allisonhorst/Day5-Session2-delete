@@ -1,0 +1,49 @@
+---
+title: "Day5 Session 2"
+format: html
+editor: visual
+---
+
+## Some logical operators
+
+-   == (does this match?)
+
+-   != (do these NOT match?)
+
+-   \>, \<, \>=, \<=
+
+-   &, \|
+
+```{r}
+
+# Does 4 match 5?
+4 == 5
+
+
+# Does 4 match 4?
+4 == 4
+
+# Does 4 NOT MATCH 5?
+4 != 5
+
+# Does 4 match "4"?
+4 == "4"
+
+# With assigned variables: 
+cat <- 10
+dog <- 7
+
+cat > dog 
+
+# Is dog greater than cat, OR is cat less than 20? 
+dog > cat | cat < 20
+
+# Is dog less than cat AND cat == 10
+dog > (0.5 * cat)
+
+dog < cat & cat > 2 & 4 >= dog
+```
+
+```{r}
+
+```
